@@ -1,0 +1,11 @@
+[user]
+	name = mikefeldmeier
+	email = mikos0102@cologne-engines.de
+	password = !Yuv888zz!Zvw999aa
+[core]
+	editor = joe
+[alias]
+	last = log -1 HEAD
+	showbranch = log --oneline --decorate --graph --all
+[credential]
+	helper = store
