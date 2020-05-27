@@ -1,5 +1,6 @@
 ---
 layout: default
+title: MFC Computing 2020
 ---
 
 ## Duis autem 
