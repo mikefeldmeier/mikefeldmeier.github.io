@@ -2,11 +2,11 @@
 title: Ein Beispiel mit Bild
 ---
 
-## Der Blick aus dem Fenster 1
+## Der Blick aus dem Fenster 1.1
 
 ![Dies ist Beispielbild 1.1](assets/images/example.jpg)
 
-## Der Blick auf IANA 2
+## Der Blick auf IANA 2.1
 
 ![Dies ist Beispielbild 2.1](assets/images/test-jpg.jpg)
 
