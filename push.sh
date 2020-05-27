@@ -1,4 +1,8 @@
 #!/bin/sh
+##################################################
+# push all changes from local branch
+# to remote site on GITHUB
+##################################################
 echo "*"
 echo "push changes to remote  GITHUB Site..."
 echo "*"
