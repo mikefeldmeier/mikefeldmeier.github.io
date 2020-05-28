@@ -1,5 +1,7 @@
 title: Mikefeldmeier github
 name: MFC Computing
+# GFN  o  kramdown
+markdown: kramdown
 defaults:
   - 
     scope:
