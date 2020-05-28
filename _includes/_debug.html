@@ -7,5 +7,5 @@
       </br>
       {% assign image_files = site.static_files | where: "image", true %}
       {% for myimage in image_files %}
-        {{ myimage.path }}<br/>
+        &nbsp;&nbsp;{{ myimage.path }}<br/>
       {% endfor %}
