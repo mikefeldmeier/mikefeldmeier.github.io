@@ -3,9 +3,15 @@
       <hr>
       <b>DEBUG</b>
       <br/>
-      <b>* All images:</b>
+      <b>* all images:</b>
       </br>
       {% assign image_files = site.static_files | where: "image", true %}
       {% for myimage in image_files %}
         &nbsp;&nbsp;{{ myimage.path }}<br/>
       {% endfor %}
+      <br/>
+      <b>* page name:</b>
+      &nbsp;&nbsp;{{ page.name }}
+      <br/>
+      <b>* page date:</b>
+      &nbsp;&nbsp;{{ page.date }}
