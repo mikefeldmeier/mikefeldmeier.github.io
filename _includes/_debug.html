@@ -20,6 +20,8 @@
       {% for etag in site.data.etag %}
       &nbsp;&nbsp;{{ etag.etagvalue }}
       {% endfor %}
+
+      {% if useiframe %}
       <br/>
       <b>iframe:</b>
       <br/>
@@ -27,4 +29,4 @@
       </iframe>
       <br/>
       <br/>
-       
+      {% endif %}       
