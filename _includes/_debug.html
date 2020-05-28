@@ -15,3 +15,13 @@
       <br/>
       <b>* page date:</b>
       &nbsp;&nbsp;{{ page.date }}
+      <br/>
+      <b>* page Etag:</b>
+      <ul>
+        {% for etag in site.data.etag %}
+        <li>
+            {{ etag.etagname }}
+          </a>  
+        </li>
+        {% endfor %}
+      </ul>

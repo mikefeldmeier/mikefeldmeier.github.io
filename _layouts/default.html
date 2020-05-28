@@ -8,7 +8,8 @@
   <meta http-equiv="Cache-Control" content="no-store"        />
   <meta http-equiv="Cache-Control" content="must-revalidate" />
   <meta http-equiv="Pragma"        content="no-cache"        />
-  <meta http-equiv="Etag"          content="{{ page.etag }}" />
+  <meta http-equiv="Etag"          content="{% for etag in site.data.etag %}{{ etag.etagname }}{% endfor %}" />
+
 
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet"    href="assets/css/styles.css"    >

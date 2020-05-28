@@ -5,7 +5,6 @@ owner: Mikos
 impressum: root
 email: mikos0102@cologne.engines.de
 ---
-{% include_relative etag.md %}
 
 ## Duis autem
 
