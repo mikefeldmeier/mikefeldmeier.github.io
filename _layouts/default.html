@@ -40,9 +40,9 @@
       <br/>
       <b>All images:</b>
       </br>
-      {% assign image_files = site.static_files | where: "image",true %}
+      {% assign image_files = site.static_files | where: "image", true %}
       {% for myimage in image_files %}
-        {{ myimage.path }}
+        img path: {{ myimage.path }}
       {% endfor %}
     </div>
   </div>
