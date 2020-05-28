@@ -36,5 +36,14 @@
         {% endfor %}
       </ul>
     </div>
+    <div id="assets">
+      <br/>
+      <b>All images:</b>
+      </br>
+      {% assign image_files = site.static_files | where: "image",true %}
+      {% for myimage in image_files %}
+        {{ myimage.path }}
+      {% endfor %}
+    </div>
   </div>
 </body>
