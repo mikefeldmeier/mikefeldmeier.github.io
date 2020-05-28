@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"            content="width=device-width,initial-scale=1" />
-<!--  
   <meta http-equiv="EXPIRES"       content="Mon, 17 Sep 2012 12:00:00 GNT"      />  
--->
+<!--
   <meta http-equiv="CACHE-CONTROL" content="NO-CACHE"                           />
+-->
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -18,14 +18,8 @@
     <div id="main">
       {{ content }}
     </div>
-    <footer>
-      <br/>
-      <br_/>
-      <a href="mailto:mikos0102@cologne-engines.de">email</a>
-        &nbsp;|&nbsp;
-      <a href="https://github.com/mikefeldmeier">github.com/mikefeldmeier</a>
-        &nbsp;|&nbsp;
-      <a href="http://bsd111.de/git/gitweb.cgi">github-local</a>
-    </footer>
+    <div id="footer">
+      {% include _footer.html %}
+    </div>
   </div>
 </body>
