@@ -1,5 +1,10 @@
 title: Mikefeldmeier github
 name: MFC Computing
+defaults:
+  - scope:
+      path: "assets/images"
+      values:
+        image: true
 sass:
-        sass_dir: _sass
-        style: compressed
+      sass_dir: _sass
+      style: compressed
