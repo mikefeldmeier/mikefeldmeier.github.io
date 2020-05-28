@@ -21,5 +21,16 @@
     <div id="footer">
       {% include _footer.html %}
     </div>
+    <div id="members">
+      <ul>
+        {% for member in site.data.members %}
+        <li>
+          <a href="https://gitbun.com/{{ member.github }}">
+            {{ member.name }}
+          </a>  
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </body>
