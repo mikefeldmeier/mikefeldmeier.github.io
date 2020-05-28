@@ -9,3 +9,11 @@ defaults:
 sass:
       sass_dir: _sass
       style: compressed
+webrick:
+      headers:
+        Cache-Control: no-cache
+        Cache-Control: no-store
+        Cache-Control: must-revalidate
+        Pragma: no-cache
+        Expires: 0
+
