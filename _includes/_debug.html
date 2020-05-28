@@ -17,11 +17,6 @@
       &nbsp;&nbsp;{{ page.url }}
       <br/>
       <b>* page Etag:</b>
-      <ul>
-        {% for etag in site.data.etag %}
-        <li>
-            {{ etag.etavalue }}
-          </a>  
-        </li>
-        {% endfor %}
-      </ul>
+      {% for etag in site.data.etag %}
+      &nbsp;&nbsp;{{ etag.etagvalue }}
+      {% endfor %}
