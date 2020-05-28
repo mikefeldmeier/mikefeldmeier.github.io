@@ -1,6 +1,7 @@
 ---
 layout: default
 title: MFC Computing 2020
+owner: Mikos
 ---
 
 ## Duis autem 
