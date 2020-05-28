@@ -13,14 +13,14 @@
       <b>* page name:</b>
       &nbsp;&nbsp;{{ page.name }}
       <br/>
-      <b>* page date:</b>
-      &nbsp;&nbsp;{{ page.date }}
+      <b>* page url:</b>
+      &nbsp;&nbsp;{{ page.url }}
       <br/>
       <b>* page Etag:</b>
       <ul>
         {% for etag in site.data.etag %}
         <li>
-            {{ etag.etagname }}
+            {{ etag.etavalue }}
           </a>  
         </li>
         {% endfor %}
