@@ -24,6 +24,7 @@ styles.scss
 assets/images
 buddha.png
 favicon.jpg
+gogatsu_no_bara.jpg
 impressum.jpg
 test-jpg.jpg
 *

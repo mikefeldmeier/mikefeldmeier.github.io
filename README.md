@@ -8,6 +8,10 @@
 * Nobody will get a free license.
 * The unscrambled SRC code here only shows up the total **poorness** of github.
 
+![no windoze(assets/images/no_win.png)
+
+![no chrome(assets/images/no_chrome.png)
+
 MFC Comp. 2020+
 
 
