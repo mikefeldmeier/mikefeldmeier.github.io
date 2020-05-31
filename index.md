@@ -22,3 +22,8 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr,Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper 
 
 
+## Do not use Windoze or Chrome
+
+![no windoze](assets/images/no_win.png)
+
+![no chrome](assets/images/no_chrome.png)
