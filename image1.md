@@ -1,5 +1,5 @@
 ---
-title: Buggha in Japan
+title: Buddha in Japan
 ---
 
 ## Buddha in Japan
