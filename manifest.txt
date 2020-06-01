@@ -22,11 +22,13 @@ assets/css
 styles.scss
 *
 assets/images
+bsd_favicon.png
 buddha.png
-favicon.jpg
 gogatsu_no_bara.jpg
-impressum.jpg
+no_chrome.png
+no_win.png
 test-jpg.jpg
+windoze_impressum.png
 *
 /
 _config.yml
