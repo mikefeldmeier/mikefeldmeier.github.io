@@ -22,6 +22,7 @@ assets/css
 styles.scss
 *
 assets/images
+404.png
 bsd_favicon.png
 buddha.png
 gogatsu_no_bara.jpg
@@ -32,6 +33,7 @@ windoze_impressum.png
 *
 /
 _config.yml
+404.md
 etag.md
 image1.md
 image2.md
