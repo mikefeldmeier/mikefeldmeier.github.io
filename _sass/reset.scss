@@ -39,7 +39,8 @@ body {
 /* Remove list styles on ul, ol elements with a class attribute */
 ul[class],
 ol[class] {
-  list-style: none;
+/*  list-style: none; */
+    list-style: circle;
 }
 
 /* A elements that don't have a class get default styles */

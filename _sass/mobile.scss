@@ -1,6 +1,5 @@
 /* mobile.scss */
 body {
-  list-style: circle;
   text-align:     left;
   margin-right:   auto; /* evtl ewch:google chrome 22 */
   /*  min-width:      960px; */
@@ -11,7 +10,7 @@ body {
   font-size:      1em;
 }
 
-#frame #main ul li {
+#frame {
   list-style: circle;
 }
 
@@ -19,6 +18,9 @@ body {
   list-style: circle;
 }
 
+#frame #main ul li {
+  list-style: circle;
+}
 
 /* outermost div tag  */
 #outerframe {
