@@ -19,6 +19,8 @@ iframeurl: http://bsd111.de/
 
 ![no windoze](assets/images/no_win.png)
 
+![no linux](assets/images/no_linux.png)
+
 ![no chrome](assets/images/no_chrome.png)
 
 ## Duis autem
