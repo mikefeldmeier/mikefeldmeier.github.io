@@ -7,5 +7,3 @@ email: mikos0102@cologne.engines.de
 
 ## Gallery
 
-   **Mobile gallery**
-
