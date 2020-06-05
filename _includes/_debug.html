@@ -1,4 +1,5 @@
       <!-- debug -->
+      {% if usedebug %}
       <br/>
       <hr>
       <b>DEBUG</b>
@@ -17,9 +18,10 @@
       &nbsp;&nbsp;{{ page.url }}
       <br/>
       <b>* page Etag:</b>
-      {% for etag in site.data.etag %}
-      &nbsp;&nbsp;{{ etag.etagvalue }}
-      {% endfor %}
+        {% for etag in site.data.etag %}
+        &nbsp;&nbsp;{{ etag.etagvalue }}
+        {% endfor %}
+      {% endif %}
 
       {% if useiframe %}
       <br/>
