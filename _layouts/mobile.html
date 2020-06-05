@@ -165,13 +165,17 @@
         background: orange;
       }
     }
+
     /* PC side by side */
     #block1,#block2 {
       float: left;
       width: 100%;
     }
     /* smartphone one block line by line */
-    @media (min-width: 990px) {
+    @media only screen and (min-width: 990px) {
+      body {
+        background-color: lightblue;      
+      }
       #block1,#block2 {
         width: 50%;      
       }    
