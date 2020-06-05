@@ -1,6 +1,7 @@
 ---
 layout: mobile
 title: Buddha in Japan
+email: mikos0102@cologne.engines.de
 ---
 
 ## Buddha in Japan
