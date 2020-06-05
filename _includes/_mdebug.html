@@ -1,0 +1,32 @@
+      <!-- debug -->
+      <br/>
+      <hr>
+      <b>MDEBUG</b>
+      <br/>
+      <b>* all images:</b>
+      </br>
+      {% assign image_files = site.static_files | where: "image", true %}
+      {% for myimage in image_files %}
+        &nbsp;&nbsp;{{ myimage.path }}<br/>
+      {% endfor %}
+      <br/>
+      <b>* page name:</b>
+      &nbsp;&nbsp;{{ page.name }}
+      <br/>
+      <b>* page url:</b>
+      &nbsp;&nbsp;{{ page.url }}
+      <br/>
+      <b>* page Etag:</b>
+      {% for etag in site.data.etag %}
+      &nbsp;&nbsp;{{ etag.etagvalue }}
+      {% endfor %}
+
+      {% if useiframe %}
+      <br/>
+      <b>iframe:</b>
+      <br/>
+      <iframe src="{{ page.iframeurl }}" width="95%" height="400" >
+      </iframe>
+      <br/>
+      <br/>
+      {% endif %}       

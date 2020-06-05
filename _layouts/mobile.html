@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <html xmlns="http://www.w3.org/1999/xhtml">
+<!-- mobile layout -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"              content="width=device-width,initial-scale=1" />
@@ -17,19 +18,19 @@
 
 
   <title>{{ page.title | default: site.title }}</title>
-  <link rel="stylesheet"    href="assets/css/styles.css"         />
+  <link rel="stylesheet"    href="assets/css/mobilestyles.css"   />
   <link rel="shortcut icon" href="assets/images/bsd_favicon.png" />
 </head>
 <body>
   <div id="frame">
     <div id="header">
-      {% include _nav.html %}
+      {% include _mnav.html %}
     </div>
     <div id="main">
       {{ content }}
     </div>
     <div id="footer">
-      {% include _footer.html %}
+      {% include _mfooter.html %}
     </div>
     <div id="members">
       <br/>

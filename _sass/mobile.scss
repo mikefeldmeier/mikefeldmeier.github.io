@@ -1,0 +1,949 @@
+/* mobile.scss */
+body {
+  text-align:     left;
+  margin-right:   auto; /* evtl ewch:google chrome 22 */
+  /*  min-width:      960px; */
+  padding-bottom: 1em; 
+  color: yellow;
+  background-color: #000000;
+  font-family:    Arial, Verdana, sans-serif;
+  font-size:      1em;
+}
+
+/* outermost div tag  */
+#outerframe {
+//  width:            99%;
+  background-color: #000000; 
+  mrgin-left:       0px;
+  margin-right:     0px;
+  /* dmenu BOX title "Menu" */
+  color:            white;
+}
+
+.yellow {
+  color: yellow;
+}
+textarea {
+  /* class textarea1 see below */
+  /* class button1   see below */
+  font-family:      "Courier New", Courier, mono;
+  font-weight:      bold;
+  font:             1.1em sans-serif;
+  color:            #222222;
+  background-color: #FFFFFF;
+  text-align:       left;
+  padding:          2px;
+  margin-left:      0px;
+}
+
+h2 {
+  font-size:     1.3em;
+  margin-left :  2px;
+  padding-top:   0px;
+  padding-left:  0px;
+  color:         yellow;
+}
+h3old {
+  font-family:    Arial, Verdana, sans-serif;
+  font-size:      1.1em;
+  background-image:url(img/editpage1.png);
+  overflow:      hidden;
+  font:          1em sans-serif;
+  margin-left :  4px;
+  margin-right : 8px;
+  padding-top:   0px;
+  padding-left:  0px;
+  color:         yellow;
+}
+h3 {
+  font-size:     1.0em;
+  margin-left :  2px;
+  padding-top:   0px;
+  padding-left:  0px;
+  color:         yellow;
+  background-image:url(img/editpage1.png);
+  background-attachment:scroll; /* or scroll */
+}
+/* dmenu subtitle */
+h4 {
+  color: 7c7c7c;
+  font:italic 1em sans-serif;
+  text-shadow:    yellow 4px 4px 4px;
+  margin-left:    2px;
+  margin-top:     2px;
+  margin-bottom:  4px;
+  padding-top:    5px;
+  padding-bottom: 10px;
+  visibility:     show;
+}
+
+/* login_loading.gif class */
+.loginhide {
+  display: none;
+}
+.loginshow {
+  /* no background-color for gif spinner image */
+  border: 0;
+  color:            #CCEEDD;
+}
+#login {
+  background-image:url(img/login_washi.jpg);
+  background-attachment:scroll; /* or scroll */
+  margin-top:     2px;
+  margin-bottom:  2px;
+  margin-left:   30px;
+  margin-right:  30px;
+}
+/* Bigger label on Smartphone */
+#login form p label {
+  font-size:     1.2em;
+}
+/* login submit graphic button */
+.button2 {
+  background-color: #470103;
+  color:            #ffffff;
+  width:            200px; 
+  height:           44px;
+  border:           1px solid #000000;
+  cursor:           pointer;
+  padding-bottom:   2px;
+}
+/* submit graphic button for &search= parm */
+.button3 {
+/*  background-color: #470103; */
+  background-color: #FFA500;
+  color:            #000000;
+  width:            36px; 
+  height:           32px;
+  border:           2px solid yellow;
+  cursor:           pointer;
+  padding-top:      0px;
+  padding-bottom:   0px;
+}
+/* login button img src */
+.btntab {
+  font: 1.1em sans-serif;
+  text-align: top;
+  padding-bottom:   0px;
+  margin-bottom:    0px;
+  width:            220px;        
+  height:           70px;
+}
+/* DELETE AUDIO VIDEO Button Yes No */
+.delbutton {
+  background-color: #ffffff;
+  color:            #3e3e3e;
+  width:            120px; 
+  height:           28px;
+  border:           1px solid #000000;
+  cursor:           pointer;
+  margin-left:      4px;
+  padding-bottom:   2px;
+}
+/* RENAME AUDIO VIDEO Button Yes No */
+.renbutton {
+  background-color: #ffffff;
+  color:            #3e3e3e;
+  width:            120px; 
+  height:           28px;
+  border:           1px solid #000000;
+  cursor:           pointer;
+  margin-left:      4px;
+  padding-bottom:   2px;
+}
+
+/* screen Y resolution of client */
+/* on bottom of login screen     */
+/* LG P-700 value  533           */
+/* PC       value 1024           */
+#desky {
+  visibility: hidden;
+  border: 0;
+  background-color: #000000;
+  color:            #CCEEDD;
+}
+
+/* left DHTML menu        */
+/* red fixed arrow stripe */
+#topservices {
+  background-color: #9E2306;
+  position:         absolute;
+  z-index:          1;
+  top:              38px;
+  left:             0px;
+  width:            8px;
+  height:           104px; 
+  border:           solid 0px blue;
+  padding-left:     1px;
+  padding-top:      22px;
+  padding-bottom:   22px;
+}
+
+/* MFCCMS content styles */
+
+/* singleplayer at top  */
+.video-player {
+  background-image:url(img/videoplayer2.png); 
+  font: 1em sans-serif;
+  background-color: black;
+  color:        yellow; 
+  font-weight:  bold;
+  margin-left:  2px;
+  margin-right: 2px;
+}
+.singleplayer {
+  color: yellow;
+  /* player background img OFF */
+/*  background-image:url(img/videoplayer2.png); */
+}
+/* Text "Singleplayer" */
+/* below video window  */
+.video-tooltip {
+  font: 0.9em sans-serif;
+  background-color: white;
+  color:         black;
+  font-weight:   bold;
+  margin-left:   2px;
+  margin-right:  2px;
+  padding-right: 4px;
+}
+/* used by video TAB and others */
+.edit {
+  background-image:url(img/editpage1.png);
+  color:            yellow;
+  background-color: #000000;
+  margin-left:      6px;
+  margin-right:     4px;
+  padding-left:     0px;
+  padding-right:    0px;
+}
+.editform {
+  margin-left:      6px;
+  margin-right:     4px;
+  padding-left:     0px;
+  padding-right:    0px;
+}
+/* search box Video and Audio Tab */
+.search1 {
+  display:        block;
+  border:         0;
+  margin-top:     2px;
+  margin-bottom:  2px;
+  margin-right:   0px;
+  margin-left:    0px;
+  vertical-align: middle;
+  text-align:     middle;
+}
+/* login input box */
+.inputbox {
+  font-size:      1.2em;
+  display:        inline;
+  border:         0;
+  margin-top:     0px;
+  margin-right:   2px;
+  margin-left:    2px;
+  vertical-align: middle; 
+  text-align:     middle; 
+  height:         auto;
+}
+/* input box Video and Audio Tab */
+.inputbox18 {
+  font-size:      1.2em;
+  display:        inline;
+  border:         3px solid #970103; 
+  margin-top:     0px;
+  margin-right:   3px;
+  margin-left:    2px;
+  margin-bottom:  16px;
+  padding-top:    1px;
+  padding-bottom: 1px;
+  vertical-align: middle; //middle; 
+  text-align:     middle; //middle; 
+}
+
+.mtab {
+  display: block;
+  white-space: nowrap;
+}
+.mtableft {
+  display: block;
+  white-space: nowrap;
+  text-align: left;
+}
+/* for button img src */
+.btntab {
+  font: 0.9em sans-serif;
+  text-align: top;
+  padding-bottom:   0px;
+  margin-bottom:    0px;
+  height:           31px;
+}
+
+/* left hidden dmenu     */
+/* Context menu          */
+/* menu = 13,14,17       */
+/* set dmenu height      */
+/* in includes/dmenu.php */
+#dmenu {
+  line-height: 160%;
+  padding-top:    0px;
+  padding-bottom: 0px;
+  position:   absolute; 
+  z-index:    20;   /* on TOP of all other elements */
+  top:        0px; 
+  left:       9px; 
+  visibility: hidden;
+  cursor:     pointer;
+}
+#dmenu_links {
+/*  background-image:url(img/dhtml_menu.png); */
+/* dmenu BOX subtitle color */
+  color:      white;
+  position:   absolute;
+  z-index:    20;   /* on TOP of all other elements */
+  top:        2px;  /* 2px more than dmenu top      */
+  left:       8px; /* dmenu left margin            */
+}
+/* spacing between Meenu items */
+#dmenu #dmenu_links {
+  line-height:  160%;
+}
+
+#dmenu #dmenu_links a {
+  margin-left:  6px;
+  padding-left: 2px;
+}
+#dmenu #dmenu_links img {
+  margin-left:  2px;
+  padding-left: 2px;
+}
+
+#dmenu #dmenu_links a:link {
+  color:            #FF871E;
+  font-weight:      bold;
+  font-size:        1.01em;
+  text-decoration:  none;
+}
+#dmenu #dmenu_links a:visited {
+  color:            #FF871E;
+  font-weight:      bold;
+  font-size:        1.01em;
+  text-decoration:  none;
+}
+#dmenu #dmenu_links a:hover {
+  color:            #FFFFFF;
+  background-color: #1F006B;  /* #000080; */
+  font-weight:      bold;
+  font-size:        1.01em;
+  text-decoration:  none;
+}
+#dmenu #dmenu_links a:active {
+  color:            #000080;
+  font-weight:      bold;
+  font-size:        1.01em;
+  text-decoration:  none;
+}
+/* Audiotrack info marquee */
+#trackinfo {
+  font-size:      1.3em;
+  font-weight:    bold;
+  width:          600px;
+  min-height:     28px;
+  margin-top:     0px;
+  margin-left:    2px;
+  margin-right:   2px;
+  padding-left:   2px;
+  padding-top:    0px;
+  padding-bottom: 6px;
+  border:       0px solid #1a2445;
+/* actual playing marquee string */
+  color: #ffcc5f; /* #27c7c7 turquois  #ffff2a yellow  #a2e829 green */
+}
+
+/* bounding box of midmenu */
+#videomenu {
+  overflow:         hidden;
+  border:           0;
+  display:          block;
+  padding-top:      2px;
+  padding-bottom:   2px;
+  padding-left:     0px;
+  padding-right:    0px;
+  margin-left:      4px; 
+  margin-right:     2px;
+  /*  background-image:url(img/topmenu2k.jpg); */
+  /* FFA500 light  orange  */  
+  /* 770103 medium bengara */
+  background-color: #770103;
+  background-attachment:fixed;
+  height:           auto;  /* 26px */
+  cursor:           pointer;
+}
+
+/* midmenu  CSS        */
+/* MENU for Video Tab  */
+/* MENU for Audio Tab  */
+/* see #videomenu too  */
+ul#midmenu
+ {
+  font-weight:        bold;
+  text-align:         center;
+  list-style-type:    none;
+  color:              yellow; 
+  margin:             0;
+  padding:            0;
+}
+ul#midmenu li {
+  list-style:         none;
+  font: 0.96em sans-serif;
+  float:              left;
+  background-color:   #470103; /* dark red brownish bengara */
+  color:              yellow;
+  margin-top:         5px;
+  margin-bottom:      5px;
+  margin-left:        1px;
+  margin-right:       5px;
+  padding-left:       0px;
+  padding-right:      0px;
+  vertical-align:     middle;
+  text-align:         middle;
+  width: 138px;
+}
+#midmenu img {
+  vertical-align:   middle;
+  margin-top:       0.2em;
+  margin-bottom:    0.2em;
+  margin-left:      0.2em;
+  margin-right:     0.1em;
+}
+ul#midmenu a:hover {
+  background-color: red; /* menu hilite color */
+  text-decoration: none;
+}
+ul#midmenu a:link {
+  color: #ff9c4b;  /* orange */
+  text-decoration: none;
+}
+ul#midmenu a:visited {
+  color: #ff9c4b;  /* orange */
+  text-decoration: none;
+}
+/* midmenu button class */
+.rollover1 {
+  background-image:  url(img/button.png);
+  background-repeat: none;
+  display:           inline;
+  width:             162px; 
+  height:            32px;
+  color:             white;
+  text-align:        center;
+  text-decoration:   none;
+  padding-top:       2px;
+  cursor:            pointer;
+}
+.rollover1:hover {
+  background-image: url(img/button_hover.png);
+  cursor:            hand;
+}
+
+/* HTML5 content */
+#content {
+  background-color: #470103;
+  color: #CCEEDD;
+  padding-top:       2px;
+  padding-bottom:    2px;
+  padding-left:      4px;
+  padding-right:     4px;
+  margin-left:      6px;
+  margin-right:     6px;
+}
+
+/* MFCCMS pagge style */
+#incpage {
+  font: 1.2em sans-serif;
+  background-color: #470103;
+  padding-top:      2px;
+  padding-bottom:   2px;
+  padding-left:     4px;
+  padding-right:    4px;
+  margin-left:      4px;
+  margin-right:     4px;
+}
+/* Text EDIT MP4 Tag */
+#incpage p {
+  font: 1.1em sans-serif;
+  background-color: #470103; 
+  color:            yellow;
+  padding-top:      2px;
+  padding-bottom:   0px;
+  padding-left:     1px;
+  padding-right:    4px;
+  margin-left:      4px;
+  margin-right:     4px;
+}
+
+/* small list          */
+/* cellspacing ANDROID */
+.video0 {
+  color:            yellow;
+  background-color: #470103;
+  padding-top:      1px;
+  padding-bottom:   1px;
+  padding-left:     2px;
+  padding-right:    2px;
+  height:           40px;
+}
+/* adm_sort_video()     */
+/* action=chgmp4tag ?   */
+.video1 {
+  color:            yellow;
+  background-color: #670103;
+  padding-top:      1px;
+  padding-bottom:   1px;
+  padding-left:     2px;
+  padding-right:    2px;
+  height:           40px;
+}
+/* adm_sort_video()     */
+/* action=chgmp4tag ?   */
+.video2 {
+  background-color: #970103;
+  color: yellow;
+  font-weight: bold;
+  width: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: 2;
+}
+.video0r {
+  text-align:       right;
+  color:            yellow;
+  background-color: #470103; 
+  padding-top:      1px;
+  padding-bottom:   1px;
+  padding-left:     4px;
+  padding-right:    4px;
+}
+.video1r {
+  text-align:       right;
+  color:            yellow;
+  background-color: #670103; 
+  padding-top:      1px;
+  padding-bottom:   1px;
+  padding-left:     4px;
+  padding-right:    4px;
+}
+/* video sort even index */
+.video0i {
+  font: 0.8em sans-serif;
+  text-align:       right;
+  color:            white;
+  background-color: #470103; 
+  padding-top:      1px;
+  padding-bottom:   1px;
+  padding-left:     2px;
+  padding-right:    2px;
+}
+/* video sort odd  index */
+.video1i {
+  font: 0.8em sans-serif;
+  text-align:       right;
+  color:            white;
+  background-color: #670103; 
+  padding-top:      1px;
+  padding-bottom:   1px;
+  padding-left:     2px;
+  padding-right:    2px;
+}
+
+/* right align table txt */
+.video2r {
+  text-align:       right;
+}
+/* video tab header filename width */
+/* audio tab header filename width */
+.fname {
+  min-width: 92px;
+}
+
+/* adm_sort_audio() */
+.audio0 {
+  color:            yellow;
+  background-color: #470103;
+  padding-top:      1px;
+  padding-bottom:   1px;
+  padding-left:     2px;
+  padding-right:    2px;
+  height:           40px;
+}
+.audio1 {
+  color:            yellow;
+  background-color: #670103;
+  padding-top:      1px;
+  padding-bottom:   1px;
+  padding-left:     2px;
+  padding-right:    2px;
+  height:           40px;
+}
+.audio0r {
+  color:            yellow;
+  background-color: #470103;
+  padding-top:      1px;
+  padding-bottom:   1px;
+  padding-left:     2px;
+  padding-right:    2px;
+  text-align:       right;
+}
+.audio1r {
+  color:            yellow;
+  background-color: #670103;
+  padding-top:      1px;
+  padding-bottom:   1px;
+  padding-left:     2px;
+  padding-right:    2px;
+  text-align:       right;
+}
+
+/* audio table parent  */
+/* action=alistmp3 ?   */
+.audio2 {
+  background-color: #970103;
+  color: yellow;
+  font-weight: bold;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: 1;
+}
+/* sort audio: filename */
+.audio0a {
+  color:            white; 
+  background-color: #470103;
+  padding-top:      1px;
+  padding-bottom:   1px;
+  padding-left:     2px;
+  padding-right:    2px;
+}
+.audio1a {
+  color:            white; 
+  background-color: #670103;
+  padding-top:      1px;
+  padding-bottom:   1px;
+  padding-left:     2px;
+  padding-right:    2px;
+}
+/* sort audio: even index */
+.audio0ar {
+  font: 0.8em sans-serif;
+  color:            white; 
+  background-color: #470103;
+  padding-top:      1px;
+  padding-bottom:   1px;
+  padding-left:     2px;
+  padding-right:    2px;
+  text-align:       right;
+}
+/* sort audio: odd   index */
+.audio1ar {
+  font: 0.8em sans-serif;
+  color:            white; 
+  background-color: #670103;
+  padding-top:      1px;
+  padding-bottom:   1px;
+  padding-left:     2px;
+  padding-right:    2px;
+  text-align:       right;
+}
+.audio-tooltip {
+  font: 0.86em sans-serif;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-right: 3px;
+}
+/* markup area (body) of audio-player  */
+/* used in lib/lib_mobile.php          */
+/* adm_markup_audio()                  */
+.audio-markup {
+  float: left;
+/*  background-image:url(img/videoplayer2.png); */
+  font: 1em sans-serif;
+  background-color: #770103;
+  color: yellow;
+  font-weight: bold;
+  margin-top:   0px;
+  margin-left:  2px;
+  margin-right: 0px;
+/*  height: 290px; */
+  width: 98%; 
+}
+/* TOP left side of audio-player area  */
+/* used in lib/lib_mobile.php          */
+/* adm_markup_audio_cover()            */
+.audio-player {
+  float: left;
+  background-image:url(img/videoplayer2.png); 
+  font: 1em sans-serif;
+/*  background-color: white; */
+  color: yellow;
+  font-weight: bold;
+  margin-top:   0px;
+  margin-left:  0px;
+  margin-right: 0px;
+  height: 290px;
+  width: 66%; 
+}
+/* TOP right side of audio-player area */
+/* used in lib/lib_mobile.php          */
+/* adm_markup_audio_cover()            */
+.audio-cover {
+  color:        white;
+  margin-left:  10px; /* 14 */
+  margin-right: 0px;
+  height:       290px;
+}
+/* right side of audio-player area */
+.audio-cover img {
+  vertical-align:  middle;
+}
+/* video table parent node */
+/* audio table parent node */
+#mediatab {
+/* table class audio2 in audio table           */
+/* background-image:url(img/videoplayer2.png); */
+  min-width: 580px;
+  font: 0.88em sans-serif;
+  /* background-color: white; */
+  color: black;
+  font-weight: bold;
+  margin-left: 0px;
+  margin-right: 2px;
+}
+
+#mediatab a:link    { font-weight:bold; color:#ff8424; text-decoration:none     ; }
+#mediatab a:visited { font-weight:bold; color:#ff8424; text-decoration:none     ; } 
+#mediatab a:hover   { font-weight:bold; color:yellow;  text-decoration:underline; } 
+
+/* media a href */
+#incpage #mediatab td a:hover {
+  background-color: #FF871E;
+  color: black;
+}
+
+#incpage #mediatab  td:hover {
+  background-color: #A70103;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+#incpage #mediatab a:link {
+  font-weight:     bold;
+  color:           #ff8424;
+  text-decoration: none; 
+}
+#incpage #mediatab a:visited {
+  font-weight:     bold;
+  color:           #ff8424;
+  text-decoration: none; 
+} 
+#incpage #mediatab a:hover {
+  font-weight:     bold;
+//  color:           yellow;
+  text-decoration: none;
+} 
+
+.mediatab {
+/* background-image:url(img/videoplayer2.png); */
+  min-width: 580px;
+  font: 1em sans-serif;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  margin-left: 2px;  /* 6 */
+  margin-right: 10px; /* 14 */
+}
+
+
+.pagecounter {
+  display:          inline;
+  font-weight:      bold;
+  z-index:          99;
+  border:           0px solid #000000;
+  color:            #ffff00;
+  cursor:           pointer;
+  padding-left:     1px;
+  padding-right:    1px;
+  padding-top:      1px;
+  padding-bottom:   0px;
+}
+
+/* Change MP4 Tag   */
+/* action=chgmp4tag */
+.chgmp4tag input{
+  border: 0;
+  background-color: #ffffff; /* White BG   */
+  color: black;              /* Black Text */
+  padding-left: 2px;
+}
+.chgmp4tag legend{
+/*  background-color: #000000; */
+  color: #C79833;
+}
+.chgmp4tag label{
+/*  background-color: #000000; */
+  color: yellow;
+}
+.chgmp4tag textarea{
+  border: 0;
+  background-color: #ffffff; /* White BG   */
+  color: black;              /* Black Text */
+  padding-left: 2px;
+}
+.chgmp4tag {
+  background-color: #470103;
+  color: yellow;
+}
+
+#incpage a:link    { font-weight:bold; color: #ff871e; text-decoration:underline; }
+#incpage a:visited { font-weight:bold; color: #ff871e; text-decoration:underline; } 
+#incpage a:hover   { font-weight:bold; color: #ffbc05;  text-decoration:underline; } 
+
+/* HTML5 section footer  */
+#incfooter {
+  background-color: #000000;
+  color: #CCEEDD;
+  margin-top:     0px;
+  padding-top:    3px;
+  padding-bottom: 3px;
+  padding-left:   4px;
+  padding-right:  4px;
+  margin-left:    0px;
+  margin-right:   2px;
+  background-image:url(../img/bottombar2k.jpg);
+  background-position: 0px 0px;
+  background-attachment:fixed;
+  height:auto;
+}
+
+
+#incfooter a {
+  margin-right:    0.5em;
+  text-decoration: underline;
+  font-size:       small;
+}
+#incfooter a:link    { font-weight:bold; color:#8ca9ff; text-decoration:underline; }
+#incfooter a:visited { font-weight:bold; color:#8ca9ff; text-decoration:underline; } 
+#incfooter a:hover   { font-weight:bold; color:yellow;  text-decoration:underline; }
+
+/* file explorer */
+.filemgr {
+  font: 1.3em sans-serif;
+  background-color: white;
+  color:            blue;
+  margin-left:      1px;
+  padding-left:     1px;
+  padding-right:    1px;
+}
+.filemgr2 {
+  font: 1.3em sans-serif;
+  background-color: white;
+  background: white;
+  color:            yellow;
+  margin-left:      1px;
+  padding-left:     1px;
+  padding-right:    1px;
+}
+
+/* OS and Browser Symbols  */
+/* at bottom right justify */
+.justify {
+  margin-right: 10px;
+  padding-right: 2px;
+}
+/* small label footer */
+.system {
+  font: 0.8em sans-serif;
+  color:       yellow;
+  font-weight: bold;
+}
+/* small text footer  */
+.systemlabel {
+  font: 0.9em sans-serif;
+  color:       white;
+}
+/* email style footer */
+.emailf {
+  text-decoration: underline;
+}
+.emailf a:hover {
+  font-weight:bold; 
+  color:yellow;  
+  text-decoration: none;
+}
+.emailf a:link {
+  font-weight:bold; 
+  color:#8ca9ff; 
+  text-decoration:underline; 
+}
+.emailf a:visited {
+  font-weight:bold;
+  color:#8ca9ff;
+  text-decoration:underline;
+}
+/* tooltips                      */
+/* used in Audio Kernel controls */
+/* at top                        */
+/* used in adm_make_alink()      */
+a.tooltip
+{
+  z-index: 3;
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
+a.tooltip span
+{
+  display: none;
+}
+
+a.tooltip:hover span
+{
+  z-index: 3;
+  position: absolute;
+  display: block;
+  top: 1.5em;
+  left: 2em;
+  border: 1px solid black;
+  background-color:white;
+  padding: 0.2em;
+}
+.imgtooltip {
+  z-index: 3;
+}
+/* change mp4,mp3,flac tags */
+/* genre hint               */
+.genrehint2 {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #FF871E;
+}
+/* collapse lists              */
+/* used in adm_show_settings() */
+/* used in adm_show_services() */
+#list1 {
+  color: white;
+  text-decoration: underline;
+  cursor:          pointer;
+}
+#list1#li {
+  text-decoration: none;
+}
+ul.hidelist li { 
+  display: none; 
+}
+ul.showlist li {
+  color: #AAFFDC; /* light turqoise */ 
+  display: block; 
+}
