@@ -35,9 +35,6 @@
       /*             0px */
       border-bottom: 1px solid black;
     }
-    footer {
-      text-align: center;    
-    }
     /* section content black on white */
     #main {
       color: black;
@@ -56,7 +53,7 @@
 
     /* section content black on white */
     #members {
-      color: black;
+      color:            #000000;
       background-color: #ffffff;    
       margin-left:      2px;
     }
@@ -237,6 +234,7 @@
       {% include _mfooter.html %}
     </div>
     <div id="members">
+    <span style="color: #000000;">
       <br/>
       <b>Site members:</b>
       <br/>
@@ -250,6 +248,7 @@
         {% endfor %}
       </ul>
       <br/>
+    </span>
     </div>
     <div class="row">
       <div class="rcolumn">
