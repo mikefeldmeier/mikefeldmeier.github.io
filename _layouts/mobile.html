@@ -165,6 +165,18 @@
         background: orange;
       }
     }
+    /* PC side by side */
+    #block1,#block2 {
+      float: left;
+      width: 100%;
+    }
+    /* smartphone one block line by line */
+    @media (min-width: 990px) {
+      #block1,#block2 {
+        width: 50%;      
+      }    
+    }
+
 
     /* SHOW control on mobile devices */
     #nav-menue:target #steuerung {
@@ -226,6 +238,14 @@
       </ul>
       <br/>
     </div>
+    <div id="block1">
+      <img src="assets/images/block1.png">
+    </div>
+    <div id="block2">
+      <img src="assets/images/block2.png">
+    </div>
+    
+
     <!-- debug yellow on black -->
     <div id="debug">
       {% include _debug.html %}
