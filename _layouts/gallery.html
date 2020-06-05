@@ -139,6 +139,20 @@
       color: red;    
     }
 
+    div.rcolumn {
+      border: 1px solid #ccc;
+    }
+
+    div.rcolumn:hover {
+      border: 1px solid #777;
+    }
+
+    div.rcolumn img {
+      color: #000000;
+      width: 100%;
+      height: auto;
+    }
+
     /* show MENU button at top right if less than 600 px  */
     /* show columns side by side on PC, else line by line */
     @media only screen and (max-width: 600px) {
@@ -207,7 +221,7 @@
       width: 100%; 
     }
 
-    /* only gallery css */
+    /* gallery only css */
     .clearfix:after {
       content: "";
       display: table;
@@ -217,45 +231,13 @@
     .desc {
       color: #000000;
       padding:  6px;
+      text-align: center;
     }
     
-    div.gallery {
-      border: 1px solid #ccc;
-    }
-
-    div.gallery:hover {
-      border: 1px solid #777;
-    }
-
-    div.gallery img {
-      color: #000000;
-      width: 100%;
-      height: auto;
-    }
-
     div.desc {
       color: #000000;
       padding: 15px;
       text-align: center;
-    }
-
-    .responsive {
-      padding: 0 6px;
-      float: left;
-      width: 24.99999%;
-    }
-
-    @media only screen and (max-width: 700px) {
-      .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-      }
-    }
-
-    @media only screen and (max-width: 500px) {
-      .responsive {
-        width: 100%;
-      }
     }
   </style>	
 </head>
@@ -270,51 +252,47 @@
 
     <!--  gallery -->
     <span class="rctitle">Image Gallery</span>
-    <span class="rctitle">
-    Resize the browser window to see the gallery effect.</span>
+    <span class="rctitle">Resize browser window to see the gallery effect.</span>
 
-    <div class="responsive">
-      <div class="gallery">
+    <div class="row">
+      <div class="rcolumn">
+        <span class="rctitle">Img1</span>
         <a target="_blank" href="assets/images/img1.jpg">
-          <img src="assets/images/img1.jpg" alt="Cinque Terre" width="600" height="400">
+        <img src="assets/images/img1.jpg" width="400" height="320">
         </a>
         <div class="desc">Add a description of the image here</div>
       </div>
-    </div>
-
-    <div class="responsive">
-      <div class="gallery">
+      <div class="rcolumn">
+        <span class="rctitle">Img2</span>
         <a target="_blank" href="assets/images/img2.jpg">
-          <img src="assets/images/img2.jpg" alt="Forest" width="600" height="400">
+        <img src="assets/images/img2.jpg" width="400" height="320">
         </a>
         <div class="desc">Add a description of the image here</div>
       </div>
     </div>
 
-    <div class="responsive">
-      <div class="gallery">
+    <div class="row">
+      <div class="rcolumn">
+        <span class="rctitle">Img3</span>
         <a target="_blank" href="assets/images/img3.jpg">
-          <img src="assets/images/img3.jpg" alt="Northern Lights" width="600" height="400">
+        <img src="assets/images/img3.jpg" width="400" height="320">
         </a>
         <div class="desc">Add a description of the image here</div>
       </div>
-    </div>
-
-    <div class="responsive">
-      <div class="gallery">
+      <div class="rcolumn">
+        <span class="rctitle">Img4</span>
         <a target="_blank" href="assets/images/img4.jpg">
-          <img src="assets/images/img4.jpg" alt="Mountains" width="600" height="400">
+        <img src="assets/images/img4.jpg" width="400" height="320">
         </a>
         <div class="desc">Add a description of the image here</div>
       </div>
     </div>
-
     <div class="clearfix"></div>
-
-    <div style="padding:6px;">
-      <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
-      <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+    <div class="desc">
+      This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).
+      You will learn more about media queries and responsive web design later in our CSS Tutorial.
     </div>
+
     <!-- gallery end -->
 
     <div id="footer">
@@ -349,45 +327,6 @@
         <img src="assets/images/block2.png" width="400" height="320">
       </div>
     </div>
-
-    <div class="row">
-      <div class="rcolumn">
-        <span class="rctitle">Img1</span>
-        <a target="_blank" href="assets/images/img1.jpg">
-        <img src="assets/images/img1.jpg" width="400" height="320">
-        </a>
-        <div class="desc">Add a description of the image here</div>
-      </div>
-      <div class="rcolumn">
-        <span class="rctitle">Img2</span>
-        <a target="_blank" href="assets/images/img2.jpg">
-        <img src="assets/images/img2.jpg" width="400" height="320">
-        </a>
-        <div class="desc">Add a description of the image here</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="rcolumn">
-        <span class="rctitle">Img3</span>
-        <a target="_blank" href="assets/images/img3.jpg">
-        <img src="assets/images/img3.jpg" width="400" height="320">
-        </a>
-        <div class="desc">Add a description of the image here</div>
-      </div>
-      <div class="rcolumn">
-        <span class="rctitle">Img4</span>
-        <a target="_blank" href="assets/images/img4.jpg">
-        <img src="assets/images/img4.jpg" width="400" height="320">
-        </a>
-        <div class="desc">Add a description of the image here</div>
-      </div>
-    </div>
-    <div class="clearfix"></div>
-    <div class="desc">
-      This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).
-      You will learn more about media queries and responsive web design later in our CSS Tutorial.
-    </div>
-    
 
     <!-- debug yellow on black -->
     <div id="debug">
