@@ -11,15 +11,15 @@ body {
 }
 
 #frame {
-  list-style: circle;
+  list-style-type: circle;
 }
 
 #main {
-  list-style: circle;
+  list-style-type: circle;
 }
 
 #frame #main ul li {
-  list-style: circle;
+  list-style-type: circle;
 }
 
 /* outermost div tag  */
@@ -406,7 +406,7 @@ ul#midmenu
   padding:            0;
 }
 ul#midmenu li {
-  list-style:         none;
+  list-style-type:    none;
   font: 0.96em sans-serif;
   float:              left;
   background-color:   #470103; /* dark red brownish bengara */
