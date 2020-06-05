@@ -27,6 +27,7 @@ bsd_favicon.png
 buddha.png
 gogatsu_no_bara.jpg
 no_chrome.png
+no_linux.png
 no_win.png
 test-jpg.jpg
 windoze_impressum.png
