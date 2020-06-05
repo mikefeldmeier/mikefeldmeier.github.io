@@ -121,7 +121,8 @@
       background: orange;
     }	
 
-    /* depends on reset layout box-sizing: border-box */
+    /* two column gallery on PC, else one column gallery */
+    /* depends on reset layout box-sizing: border-box    */
     .rcolumn {
       float:        left;
       width:        50%;
@@ -207,6 +208,12 @@
     }
 
     /* only gallery css */
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
     div.gallery {
       border: 1px solid #ccc;
     }
@@ -244,12 +251,6 @@
       .responsive {
         width: 100%;
       }
-    }
-
-    .clearfix:after {
-      content: "";
-      display: table;
-      clear: both;
     }
   </style>	
 </head>
@@ -329,10 +330,14 @@
       </ul>
       <br/>
     </div>
+
     <div class="row">
       <div class="rcolumn">
         <span class="rctitle">Software from yesterday</span>
+        <a target="_blank" href="assets/images/block1.png">
         <img src="assets/images/block1.png" width="400" height="320">
+        </a>
+        <div class="desc">Add a description of the image here</div>
       </div>
       <div class="rcolumn">
         <span class="rctitle">Wordprocessing from yesterday</span>
@@ -343,22 +348,39 @@
     <div class="row">
       <div class="rcolumn">
         <span class="rctitle">Img1</span>
+        <a target="_blank" href="assets/images/img1.jpg">
         <img src="assets/images/img1.jpg" width="400" height="320">
+        </a>
+        <div class="desc">Add a description of the image here</div>
       </div>
       <div class="rcolumn">
         <span class="rctitle">Img2</span>
+        <a target="_blank" href="assets/images/img2.jpg">
         <img src="assets/images/img2.jpg" width="400" height="320">
+        </a>
+        <div class="desc">Add a description of the image here</div>
       </div>
     </div>
     <div class="row">
       <div class="rcolumn">
         <span class="rctitle">Img3</span>
+        <a target="_blank" href="assets/images/img3.jpg">
         <img src="assets/images/img3.jpg" width="400" height="320">
+        </a>
+        <div class="desc">Add a description of the image here</div>
       </div>
       <div class="rcolumn">
         <span class="rctitle">Img4</span>
+        <a target="_blank" href="assets/images/img4.jpg">
         <img src="assets/images/img4.jpg" width="400" height="320">
+        </a>
+        <div class="desc">Add a description of the image here</div>
       </div>
+    </div>
+    <div class="clearfix"></div>
+    <div style="padding:6px;">
+      <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+      <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
     </div>
     
 
