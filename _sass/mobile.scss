@@ -73,16 +73,16 @@ h4 {
 
 @media only screen and (min-width: 800px) {
     #frame {
-        width: 90%;
+        width: 99%;
         grid-template-areas:
             "nav"
             "main";
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 961px) {
     #frame {
-        width: 75%;
+        width: 99%;
     }
 }
 
@@ -107,7 +107,7 @@ p {
 
 #main {
     grid-area: main;
-
+    list-stype-type: circle;
     @for $index from 1 through 6 {
         h#{$index} {
             margin-top: 1.25em;
@@ -116,7 +116,6 @@ p {
 
         h#{$index}+p {
             margin-top: 0em;
-            list-style-type: circle;
         }
     }
 }
