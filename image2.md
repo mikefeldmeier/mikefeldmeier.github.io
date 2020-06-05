@@ -1,4 +1,5 @@
 ---
+layout: mobile
 title: IANA Logo
 ---
 

@@ -1,4 +1,5 @@
 ---
+layout: mobile
 title: Buddha in Japan
 ---
 

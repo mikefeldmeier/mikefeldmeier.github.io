@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: mobile
 title: MFC Computing 2020 Impressum
 owner: Mikos
 ---
