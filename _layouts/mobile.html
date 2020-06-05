@@ -20,6 +20,132 @@
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet"    href="assets/css/mobilestyles.css"   />
   <link rel="shortcut icon" href="assets/images/bsd_favicon.png" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: yellow;
+      background-color: gray;
+      width: 100%;
+      float: left;
+      border-bottom: 1px solid black;
+    }
+    /* section content */
+    #content {
+  
+    }
+    #bereichlogo {
+      color: white;
+      /* light bengara */
+      background-color: #970103;
+      display: block;
+      padding: 0.5em;
+      text-decoration: none;
+      float: left;	
+    }
+    #bereichlogo {
+      width: auto;
+    }
+    #steuerung li {
+      list-style: none;
+      float: left;
+    }
+    #steuerung a {
+      display: block;
+      height: 100%;
+      width: 100%;
+      padding: 0.5em;
+      text-decoration: none;
+      color: white;
+      background-color: gray;
+      /* background-color: #4F4F4F; */
+    }	
+    .menue-button {
+      display: none;
+    }		
+    #steuerung {
+      float: right;
+    }
+    #steuerung a:hover {
+      color: black;
+      background: orange;
+    }	
+
+    /* show MENU button at top right if less than 600 px */
+    @media only screen and (max-width:600px) {
+      .menue-button {
+        display: block;
+      }
+      .menue-button {
+        /* background-color: darkblue; */
+        background-color: #353535;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 0.5em;
+        color: yellow;
+        cursor: pointer;
+        text-decoration: none;
+      }	
+      #bereichlogo {
+        width: 100%;
+      }
+      #steuerung {
+        float: left;
+        width: 100%;
+        display: none;
+      }	
+      #steuerung li {
+        width: 100%;
+        border-bottom: 2px solid silver;
+      }	
+      .menue-button:hover {
+        color: black;
+        background: orange;
+      }
+    }
+
+    /* SHOW control on mobile devices */
+    #nav-menue:target #steuerung {
+      display: block;
+    }
+
+    /* HIDE control on mobile devices */
+    #nav-menue:target .menue-button-beschr-open {
+      display: none ; 
+    }	
+
+    /* common CSS */
+    section {
+      padding-top:    0.2em;
+      padding-bottom: 0.2em;
+      padding-left:   0.3em;
+      padding-right:  0.3em;
+      /* float: left; */
+      width: 100%; 
+    }
+    /* common CSS                        */
+    /* interferes with colorbox          */
+    /* see .outerframe DEF in mobile.css */
+    /*
+    div {
+      padding-top:    0.1em;
+      padding-bottom: 0.2em;
+      padding-left:   0.3em;
+      padding-right:  0.3em;
+      float: left;
+      width: 98%; 
+    }
+    */
+    //h1, p {
+    //  margin: 0.3em 0 0 0;
+    //}	
+  </style>	
 </head>
 <body>
   <div id="frame">
