@@ -2,6 +2,7 @@
 layout: mobile
 title: MFC Computing 2020 Impressum
 owner: Mikos
+email: mikos0102@cologne.engines.de
 ---
 
 ## Impressum
