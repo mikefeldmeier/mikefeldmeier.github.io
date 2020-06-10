@@ -4,7 +4,7 @@ title: MFC Computing 2020
 owner: Mikos
 impressum: root
 email: mikos0102@cologne.engines.de
-usedebug: false
+usedebug: true
 useiframe: true
 iframeurl: http://bsd111.de/
 ---
