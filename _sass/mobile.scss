@@ -12,7 +12,9 @@ body {
   font-family:    Arial, Verdana, sans-serif;
   /* font-size:      1em; */
   /* fluid typography     */
-  font-size: calc(14px + (26 - 14) * ((100vw - 400px) / (1600 - 400)));
+  /* min 400px max 1200px */
+  /* font min 14, max 24  */
+  font-size: calc(14px + (24 - 14) * ((100vw - 400px) / (1200 - 400)));
 }
 
 .browser {
