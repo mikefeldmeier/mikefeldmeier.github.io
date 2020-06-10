@@ -10,7 +10,9 @@ body {
   color: yellow;
   background-color: #ffffff;
   font-family:    Arial, Verdana, sans-serif;
-  font-size:      1em;
+  /* font-size:      1em; */
+  /* fluid typography     */
+  font-size: calc(14px + (26 - 14) * ((100vw - 400px) / (1600 - 400)));
 }
 
 .browser {
@@ -57,6 +59,18 @@ h3 {
 }
 /* dmenu subtitle */
 h4 {
+  color: 7c7c7c;
+  font:italic 1em sans-serif;
+  text-shadow:    yellow 4px 4px 4px;
+  margin-left:    2px;
+  margin-top:     2px;
+  margin-bottom:  4px;
+  padding-top:    5px;
+  padding-bottom: 10px;
+  visibility:     show;
+}
+/* dmenu subtitle */
+h5 {
   color: 7c7c7c;
   font:italic 1em sans-serif;
   text-shadow:    yellow 4px 4px 4px;
