@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<!-- mobile gallery layout -->
+<!-- responsible mobile gallery layout -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"              content="width=device-width,initial-scale=1" />
@@ -15,7 +15,6 @@
   <meta http-equiv="Cache-Control"   content="must-revalidate"   />
   <meta http-equiv="Pragma"          content="no-cache"          />
   <meta http-equiv="Etag"            content="{% for etag in site.data.etag %}{{ etag.etagvalue }}{% endfor %}" />
-
 
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet"    href="assets/css/mobilestyles.css"   />
@@ -72,12 +71,6 @@
       margin-right:     2px;
       margin-bottom:    0px;
     }
-
-    /* index.md handling */
-    #frame #main li {
-      /* list-style-type: circle;*/ /* circle,square,none  */
-    }
-
 
     /* section content */
     #content {
@@ -264,6 +257,7 @@
       {% include _mnav.html %}
     </div>
     <div id="main">
+      <!-- content before gallery -->
       {{ content }}
 
       <!-- start gallery -->

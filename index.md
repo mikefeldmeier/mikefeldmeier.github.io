@@ -5,7 +5,7 @@ owner: Mikos
 impressum: root
 email: mikos0102@cologne.engines.de
 usedebug: false
-useiframe: false
+useiframe: true
 iframeurl: http://bsd111.de/
 ---
 

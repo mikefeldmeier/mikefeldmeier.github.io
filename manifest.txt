@@ -16,6 +16,7 @@ _nav.html
 *
 _layouts
 default.html
+gallery.html
 mobile.html
 *
 _sass
@@ -29,9 +30,15 @@ styles.scss
 *
 assets/images
 404.png
+block1.png
+block2.png
 bsd_favicon.png
 buddha.png
 gogatsu_no_bara.jpg
+img1.jpg
+img2.jpg
+img3.jpg
+img4.jpg
 no_chrome.png
 no_linux.png
 no_win.png
@@ -42,6 +49,7 @@ windoze_impressum.png
 _config.yml
 404.md
 etag.md
+gallery.md
 image1.md
 image2.md
 impressum.md
@@ -49,4 +57,5 @@ index.md
 layout.md
 LICENSE
 manifest.txt
+pageinfo.txt
 README.md

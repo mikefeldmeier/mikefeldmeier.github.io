@@ -1,4 +1,9 @@
-/* Box sizing rules */
+/* ------------------- */
+/* reset.scss          */
+/* ------------------- */
+
+/* Box sizing rules,   */
+/* makes always sense  */
 *,
 *::before,
 *::after {
@@ -11,7 +16,7 @@ ol[class] {
   padding: 0;
 }
 
-/* Remove default margin */
+/* Remove margins */
 body,
 h1,
 h2,
@@ -28,27 +33,30 @@ dd {
   margin: 0;
 }
 
-/* leave 2px p margin left and right */
+/* leave 2px p margin */
+/* left and right     */
 p {
   margin-left:  2px;
   margin-right: 2px;
 }
 
-/* Set core body defaults */
+/* Set body defaults */
 body {
   min-height: 100vh;
   scroll-behavior: smooth;
   line-height: 1.5;
 }
 
-/* Remove list styles on ul, ol elements with a class attribute */
+/* Remove list styles on ul, ol    */
+/* elements with a class attribute */
 ul[class],
 ol[class] {
 /*  list-style-type: none; */
     list-style-type: circle;
 }
 
-/* A elements that don't have a class get default styles */
+/* A classless element */
+/* get default styles  */
 a:not([class]) {
   text-decoration-skip-ink: auto;
   color: #000000;
@@ -58,18 +66,19 @@ a:not([class]):hover {
   color: #666666;
 }
 
-/* Make images easier to work with */
+/* img defaults */
 img {
   max-width: 100%;
   display: block;
 }
 
-/* Natural flow and rhythm in articles by default */
+/* Natural flow and rhythm */
+/* in articles by default  */
 article>*+* {
   margin-top: 1em;
 }
 
-/* Inherit fonts for inputs and buttons */
+/* fonts for inputs and BTN */
 input,
 button,
 textarea,
@@ -77,7 +86,8 @@ select {
   font: inherit;
 }
 
-/* Remove all animations and transitions for people that prefer not to see them */
+/* Remove animations and transitions    */
+/* for those who prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.01ms !important;

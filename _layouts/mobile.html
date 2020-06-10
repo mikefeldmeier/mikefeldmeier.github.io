@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<!-- mobile layout -->
+<!-- responsible mobile default layout -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"              content="width=device-width,initial-scale=1" />
@@ -15,7 +15,6 @@
   <meta http-equiv="Cache-Control"   content="must-revalidate"   />
   <meta http-equiv="Pragma"          content="no-cache"          />
   <meta http-equiv="Etag"            content="{% for etag in site.data.etag %}{{ etag.etagvalue }}{% endfor %}" />
-
 
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet"    href="assets/css/mobilestyles.css"   />
@@ -72,12 +71,6 @@
       margin-right:     2px;
       margin-bottom:    0px;
     }
-
-    /* index.md handling */
-    #frame #main li {
-      /* list-style-type: circle;*/ /* circle,square,none  */
-    }
-
 
     /* section content */
     #content {
@@ -178,7 +171,7 @@
       }
     }
 
-    /* background blue in PC only */
+    /* background blue on WXGA+ PC only */
     @media only screen and (min-width: 990px) {
       body {
         background-color: lightblue;      
@@ -204,19 +197,6 @@
       /* float: left; */
       width: 100%; 
     }
-    /* common CSS                        */
-    /* interferes with colorbox          */
-    /* see .outerframe DEF in mobile.css */
-    /*
-    div {
-      padding-top:    0.1em;
-      padding-bottom: 0.2em;
-      padding-left:   0.3em;
-      padding-right:  0.3em;
-      float: left;
-      width: 98%; 
-    }
-    */
   </style>	
 </head>
 <body>
@@ -225,6 +205,7 @@
       {% include _mnav.html %}
     </div>
     <div id="main">
+      <!-- content from .md files -->
       {{ content }}
     </div>
     <div id="footer">
@@ -256,7 +237,6 @@
       </div>
     </div>
     
-
     <!-- debug yellow on black -->
     <div id="debug">
       {% include _mdebug.html %}
