@@ -28,7 +28,7 @@
 ![no chrome](assets/images/no_chrome.png)
 
 
-MFC COMP. Osaka 2020+
+MFC COMP. 大阪市
 
 
 

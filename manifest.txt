@@ -18,6 +18,7 @@ _layouts
 default.html
 gallery.html
 mobile.html
+oosaka.html
 *
 _sass
 layout.scss

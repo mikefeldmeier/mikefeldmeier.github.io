@@ -1,5 +1,5 @@
 ---
-layout: mobile
+layout: oosaka
 title: MFC COMP. Osaka - Impressum
 owner: Mikos
 permalink: /oosaka/oosaka.html

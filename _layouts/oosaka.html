@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="de">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- responsible oosaka default layout -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"              content="width=device-width,initial-scale=1" />
+  <meta name="generator"             content="jekyll"            />
+  <meta http-equiv="author"          content="Mike Feldmeier"    />
+  <meta http-equiv="Content-Type"    content="text/html"         />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"                            />
+  <meta http-equiv="Expires"         content="Mon, 17 Sep 2012 12:00:00 GNT"      />  
+  <meta http-equiv="Cache-Control"   content="no-cache"          />
+  <meta http-equiv="Cache-Control"   content="no-store"          />
+  <meta http-equiv="Cache-Control"   content="must-revalidate"   />
+  <meta http-equiv="Pragma"          content="no-cache"          />
+  <meta http-equiv="Etag"            content="{% for etag in site.data.etag %}{{ etag.etagvalue }}{% endfor %}" />
+
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet"    href="assets/css/mobilestyles.css"   />
+  <link rel="shortcut icon" href="assets/images/bsd_favicon.png" />
+
+  <style>
+    * {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    /* top menu bar responsible design */
+    header {
+      background-color: yellow;
+      background-color: gray;
+      width: 100%;
+      float: left;
+      /*             0px */
+      border-bottom: 1px solid black;
+    }
+    /* div header for top menu */
+    /* 14px on PC workstation  */
+    /* 16px on Smartphones     */
+    @media only screen and (max-width: 600px) {
+      #header {
+        font-size: 16px;    
+      }
+    }
+    @media only screen and (min-width: 601px) {
+      #header {
+        font-size: 14px;    
+      }
+    }
+    /* section content black on white */
+    #main {
+      color: black;
+      background-color: #ffffff;    
+      list-style-type:  circle;
+    }
+
+    /* section content yellow on gray */
+    #footer {
+      text-align:       center;    
+      color:            yellow;
+      background-color: gray;
+      padding: 2px;
+    }
+    #members {
+      color:            #000000;
+      background-color: #ffffff;
+      padding: 2px;
+    }
+    
+    #debug {
+      background-color: #000000;    
+    }
+
+    h1,h2,h3 {
+      color: black;
+      background-color: #ffffff;    
+      margin-top:       3px;
+      margin-bottom:    8px;
+    }
+    
+    p {
+      margin-top:       0px;
+      margin-left:      2px;
+      margin-right:     2px;
+      margin-bottom:    0px;
+    }
+
+    /* section content */
+    #content {
+  
+    }
+
+
+    /* -------------------------------------------------- */
+    /* TOP menu links                                     */
+    /* -------------------------------------------------- */
+    #bereichlogo {
+      color: white;
+      /* light bengara */
+      background-color: #970103;
+      display: block;
+      padding: 0.5em;
+      text-decoration: none;
+      float: left;	
+    }
+    #bereichlogo {
+      width: auto;
+    }
+    #steuerung li {
+      list-style-type: none; /* no bullet in top menue */
+      float: left;
+    }
+    #steuerung a {
+      display: block;
+      height: 100%;
+      width: 100%;
+      padding: 0.5em;
+      text-decoration: none;
+      color: white;
+      background-color: gray;
+      /* background-color: #4F4F4F; */
+    }	
+    .menue-button {
+      display: none;
+    }		
+    #steuerung {
+      float: right;
+    }
+    #steuerung a:hover {
+      color: black;
+      background: orange;
+    }	
+    /* depends on reset layout box-sizing: border-box */
+    .rcolumn {
+      float:        left;
+      width:        50%;
+      padding:      0px;
+      height:       410px; /* img src tag has height 400 */
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear:   both;
+    }
+    .rctitle {
+      font-size: 1.4em;
+      color: red;    
+    }
+
+
+    /* -------------------------------------------------- */
+    /* TOP menu button: at top right if less than 600 px  */
+    /* show columns side by side on PC, else line by line */
+    /* -------------------------------------------------- */
+    @media only screen and (max-width: 600px) {
+      .rcolumn {
+        width: 100%;
+      }
+      
+      .menue-button {
+        display: block;
+      }
+      .menue-button {
+        /* background-color: darkblue; */
+        background-color: #353535;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 0.5em;
+        color: yellow;
+        cursor: pointer;
+        text-decoration: none;
+      }	
+      #bereichlogo {
+        width: 100%;
+      }
+      #steuerung {
+        float: left;
+        width: 100%;
+        display: none;
+      }	
+      #steuerung li {
+        width: 100%;
+        /*             2px */
+        border-bottom: 1px solid silver;
+      }	
+      .menue-button:hover {
+        color: black;
+        background: orange;
+      }
+    }
+
+    /* background lightblue on WXGA+ PC only */
+    @media only screen and (min-width: 990px) {
+      body {
+        background-color: lightblue;      
+      }
+    }
+
+    /* SHOW control on mobile devices */
+    #nav-menue:target #steuerung {
+      display: block;
+    }
+
+    /* HIDE control on mobile devices */
+    #nav-menue:target .menue-button-beschr-open {
+      display: none ; 
+    }	
+
+    /* common CSS */
+    section {
+      padding-top:    0.2em;
+      padding-bottom: 0.2em;
+      padding-left:   0.3em;
+      padding-right:  0.3em;
+      /* float: left; */
+      width: 100%; 
+    }
+  </style>	
+</head>
+<body>
+  <div id="frame">
+    <div id="header">
+      {% include _mnav.html %}
+    </div>
+    <div id="main">
+      <!-- content from .md files -->
+      {{ content }}
+    </div>
+    <div id="footer">
+      {% include _mfooter.html %}
+    </div>
+    <div id="members">
+      <br/>
+      <b>Site members:</b>
+      <br/>
+      <ul>
+        {% for member in site.data.members %}
+        <li>
+          <a href="https://github.com/{{ member.github }}">
+            {{ member.name }}
+          </a>  
+        </li>
+        {% endfor %}
+      </ul>
+      <br/>
+    </div>
+
+    <!-- debug yellow on black -->
+    <div id="debug">
+      {% include _mdebug.html %}
+    </div>
+  </div>
+  <!-- JQ lazy load -->
+  <script src="assets/js/jquery351.js" crossorigin="anonymous"></script>
+</body>
+</html>
