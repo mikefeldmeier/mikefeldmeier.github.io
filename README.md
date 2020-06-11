@@ -27,5 +27,5 @@
 ![no chrome](assets/images/no_chrome.png)
 
 
-MFC COMP. 大阪市
+MFC COMP. Overseas Osaka - 大阪市
 
