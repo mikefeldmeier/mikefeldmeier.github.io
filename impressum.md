@@ -5,7 +5,7 @@ owner: MFC COMP. Overseas Osaka - 大阪市
 email: mikos0102@cologne.engines.de
 ---
 
-## Impressum - 大阪市の仕事
+## MFC COMP. Overseas Osaka - 大阪市 - Impressum
 
 
 ![Davor warnen wir](assets/images/windoze_impressum.png)

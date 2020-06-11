@@ -4,7 +4,7 @@ title: MFC COMP. 大阪市
 owner: MFC COMP. Overseas Osaka - 大阪市
 ---
 
-## Buddha in Japan
+## Buddha located in Japan (Todaiji - Nara)
 
 ![Dies ist Buddha in Japan](assets/images/buddha.png)
 
