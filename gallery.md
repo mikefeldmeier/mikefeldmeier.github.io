@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: MFC Computing 2020 Gallery
+title: MFC COMP. 大阪市
 owner: Mikos
 email: mikos0102@cologne.engines.de
 ---

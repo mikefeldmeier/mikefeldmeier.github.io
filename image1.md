@@ -1,6 +1,6 @@
 ---
 layout: mobile
-title: Buddha in Japan
+title: MFC COMP. 大阪市
 ---
 
 ## Buddha in Japan

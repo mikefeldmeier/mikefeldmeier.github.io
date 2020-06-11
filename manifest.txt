@@ -33,6 +33,7 @@ assets/images
 block1.png
 block2.png
 bsd_favicon.png
+bsd.png
 buddha.png
 gogatsu_no_bara.jpg
 img1.jpg
@@ -44,6 +45,9 @@ no_linux.png
 no_win.png
 test-jpg.jpg
 windoze_impressum.png
+*
+oosaka
+oosaka.md
 *
 /
 _config.yml

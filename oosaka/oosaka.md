@@ -1,12 +1,12 @@
 ---
 layout: mobile
-title: MFC COMP. 大阪市
+title: MFC COMP. Osaka - Impressum
 owner: Mikos
+permalink: /oosaka/oosaka.html
 email: mikos0102@cologne.engines.de
 ---
 
-## Impressum - 大阪市の仕事
-
+## MFC COMP. Osaka - Impressum
 
 ![Davor warnen wir](assets/images/windoze_impressum.png)
 

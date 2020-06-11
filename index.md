@@ -1,6 +1,6 @@
 ---
 layout: mobile
-title: MFC Computing 2020
+title: MFC COMP. 大阪市
 owner: Mikos
 impressum: root
 email: mikos0102@cologne.engines.de
@@ -18,6 +18,12 @@ iframeurl: http://bsd111.de/
 * You should know that github was overtaken by microzoft.
 * Do not use chrome browser, use SRWare iron or MOZILLA firefox instead.
 * The unscrambled SRC code here only shows up the total **poorness** of github.
+
+### We use:
+
+
+![use bsd](assets/images/bsd.png)
+
 
 ### We do not use:
 

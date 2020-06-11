@@ -1,6 +1,6 @@
 ---
 layout: mobile
-title: IANA Logo
+title: MFC COMP. 大阪市 IANA Logo
 ---
 
 ## IANA Logo
