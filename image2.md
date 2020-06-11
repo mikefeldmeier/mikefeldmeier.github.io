@@ -1,6 +1,7 @@
 ---
 layout: mobile
 title: MFC COMP. 大阪市 IANA Logo
+owner: MFC COMP. Overseas Osaka - 大阪市
 ---
 
 ## IANA Logo
