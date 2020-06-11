@@ -1,10 +1,9 @@
 ---
 
----
-## GITHUB LOCK PAGE
+## MFC COMP. Overseas Osaka - 大阪市
 
-* 大阪市の仕事
-* Lock Entry to prevet abuse of my name by others.
+* GITHUB loack page
+* Lock Entry to prevent abuse of my name by others.
 * All SRC codes are encrypted proprietary.
 * Nobody will get a free license.
 * You should know that github was overtaken by microzoft.
