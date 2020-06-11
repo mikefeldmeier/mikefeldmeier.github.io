@@ -1,7 +1,7 @@
 ---
 layout: mobile
 title: MFC COMP. 大阪市
-owner: Mikos
+owner: MFC COMP. 大阪市
 impressum: root
 email: mikos0102@cologne.engines.de
 usedebug: false
