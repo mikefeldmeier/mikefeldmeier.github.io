@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<!-- responsible mobile video layout -->
+<!-- responsible mobile vimeo video layout -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"              content="width=device-width,initial-scale=1" />
@@ -234,18 +234,9 @@
       {% include _mnav.html %}
     </div>
     <div id="main">
-      <!-- content from .md files -->
+      <!-- content from video.md file -->
       {{ content }}
     </div>
-    <!-- videpolayer container -->
-    <div id="videoplayer">
-      <video id='my-video' controls style="width: 640px; height: 360px;">
-        <source data-fluid-hd src='https://mikefeldmeier.github.io/assets/videos/city-1080.mp4' title='1080p' type='video/mp4' />
-        <source data-fluid-hd src='https://mikefeldmeier.github.io/assets/videos/city-720.mp4'  title='720p'  type='video/mp4' />
-        <source               src='https://mikefeldmeier.github.io/assets/videos/city-540.mp4'  title='540p'  type='video/mp4' />
-      </video>
-    </div>
-    <!-- footer -->
     <div id="footer">
       {% include _mfooter.html %}
     </div>
@@ -266,24 +257,7 @@
       {% include _mdebug.html %}
     </div>
   </div>
-  <!-- videoplayer -->
-  <script src="assets/js/fluid.js"></script>
-  <script type="text/javascript">
-    var player = fluidPlayer(
-      'my-video',
-      {
-        layoutControls: {
-          primaryColor: "#28B8ED",
-          posterImage:  'assets/videos/city.jpg',
-          allowTheatre:  true,
-          allowDownload: false,
-          autoPlay:      false // firefox 77+ does not allow autoplay
-		},
-        vastOptions: {
-          // customize ads disp & behave
-        }
-      }
-    );
-  </script>
+  <!-- JQ lazy load -->
+  <script src="assets/js/jquery351.js" crossorigin="anonymous"></script>
 </body>
 </html>
