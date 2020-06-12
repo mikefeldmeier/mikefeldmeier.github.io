@@ -19,6 +19,7 @@ default.html
 gallery.html
 mobile.html
 oosaka.html
+video.html
 *
 _sass
 layout.scss
@@ -64,3 +65,4 @@ LICENSE
 manifest.txt
 pageinfo.txt
 README.md
+video.md
