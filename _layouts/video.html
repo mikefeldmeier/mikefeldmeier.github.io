@@ -90,7 +90,9 @@
   
     }
 
-    /* video container */
+    /* -------------------------------------------------- */
+    /* fluid videoplayer                                  */
+    /* -------------------------------------------------- */
     #videoplayer {
   
     }
@@ -238,9 +240,9 @@
     <!-- videpolayer container -->
     <div id="videoplayer">
       <video id='my-video' controls style="width: 640px; height: 360px;">
-        <source data-fluid-hd src='city-1080.mp4' title='1080p' type='video/mp4' />
-        <source data-fluid-hd src='city-720.mp4'  title='720p'  type='video/mp4' />
-        <source               src='city-540.mp4'  title='540p'  type='video/mp4' />
+        <source data-fluid-hd src='assets/videos/city-1080.mp4' title='1080p' type='video/mp4' />
+        <source data-fluid-hd src='assets/videos/city-720.mp4'  title='720p'  type='video/mp4' />
+        <source               src='assets/videos/city-540.mp4'  title='540p'  type='video/mp4' />
       </video>
     </div>
     <!-- footer -->
@@ -265,7 +267,7 @@
     </div>
   </div>
   <!-- videoplayer -->
-  <script src="assets/js/fluid429.js"></script>
+  <script src="assets/js/fluid.js"></script>
   <script type="text/javascript">
     var player = fluidPlayer(
       'my-video',
@@ -283,6 +285,5 @@
       }
     );
   </script>
-
 </body>
 </html>
