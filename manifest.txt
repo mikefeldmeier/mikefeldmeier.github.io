@@ -5,6 +5,7 @@ MANIFEST
 _data
 etag.csv
 members.csv
+vimeo.csv
 *
 _includes
 _debug.html
@@ -55,6 +56,7 @@ oosaka.md
 /
 _config.yml
 404.md
+changelog.txt
 etag.md
 gallery.md
 image1.md
