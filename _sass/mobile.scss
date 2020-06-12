@@ -94,6 +94,19 @@ h5 {
       "main"
 }
 
+/* main content black on white */
+#main {
+  color: black;
+  background-color: #ffffff;    
+  list-style-type:  circle;
+}
+
+#members {
+  color:            #000000;
+  background-color: #ffffff;
+  padding: 2px;
+}
+
 /* footer content yellow on gray */
 /* footer a hover yellow on gray */
 #footer {
