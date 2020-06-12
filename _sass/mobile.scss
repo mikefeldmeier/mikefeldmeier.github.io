@@ -94,6 +94,17 @@ h5 {
       "main"
 }
 
+/* footer content yellow on gray */
+/* footer a hover yellow on gray */
+#footer {
+  text-align:       center;    
+  color:            yellow;
+  background-color: gray;
+  padding: 2px;
+}
+#footer a:hover {
+  color: yellow;    
+}
 
 
 @media only screen and (min-width: 800px) {
