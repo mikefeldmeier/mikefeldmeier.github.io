@@ -4,7 +4,7 @@ email: mikos0102@cologne-engines.de
 # link rel canonical {{ site.canonical }}
 canonical: http://mikefeldmeier.github.io/
 # google AMP pages
-useamp: true
+useamp: false
 # google ANALYTICVS
 usega: false
 usega2: false
