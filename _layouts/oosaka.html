@@ -3,23 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <!-- responsible oosaka default layout -->
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"              content="width=device-width,initial-scale=1" />
-  <meta name="generator"             content="jekyll"              />
-  <meta http-equiv="author"          content="Mike Feldmeier"      />
-  <meta http-equiv="Content-Type"    content="text/html"           />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"                            />
-  <meta http-equiv="Expires"         content="Mon, 17 Sep 2012 12:00:00 GNT"      />  
-  <meta http-equiv="Cache-Control"   content="no-cache"            />
-  <meta http-equiv="Cache-Control"   content="no-store"            />
-  <meta http-equiv="Cache-Control"   content="must-revalidate"     />
-  <meta http-equiv="Pragma"          content="no-cache"            />
-  <meta http-equiv="Etag"            content="{% for etag in site.data.etag %}{{ etag.etagvalue }}{% endfor %}" />
-
-  <title>{{ page.title | default: site.title }}</title>
-  <link rel="stylesheet"    href="assets/css/mobilestyles.css"     />
-  <link rel="shortcut icon" href="assets/images/bsd_favicon.png"   />
-  <link rel="canonical"     href="{{ site.canonical }}" />
+  {% include _html_head.html %}
 
   <style>
     * {
