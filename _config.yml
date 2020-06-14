@@ -6,7 +6,7 @@ canonical: http://mikefeldmeier.github.io/
 # google AMP pages
 useamp: false
 # google ANALYTICVS
-usega: true
+usega: false
 # GFN  or  kramdown
 markdown: kramdown
 defaults:
