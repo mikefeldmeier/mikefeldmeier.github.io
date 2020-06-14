@@ -9,9 +9,9 @@ owner: MFC COMP. Overseas Osaka - 大阪市
 
 **front view**
 ![Daibutsu in Nara front view](assets/images/daibutsu3.png)
-[daibutsu license](https://creativecommons.org/licenses/by-sa/3.0/deed.en/)
+[daibutsu license](https://creativecommons.org/licenses/by-sa/3.0/deed.en){:target="_blank"}
 
-[original file](https://commons.wikimedia.org/wiki/File:Takaoka_Daibutsu_2011-07-15_01.jpg)
+[original file](https://commons.wikimedia.org/wiki/File:Takaoka_Daibutsu_2011-07-15_01.jpg){:target="_blank"}
 
    >*
 
