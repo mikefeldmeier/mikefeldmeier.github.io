@@ -11,8 +11,8 @@ desc2:   Mirco Toilet
 ## Figure markup
 
    **Figure 1**
-   {% include _figure.html fig=page.figure1 desc=page.desc1 x=330 y=200 %}
+   {% include _figure.html fig=page.figure1 desc=page.desc1 x=200 y=330 %}
 
    **Figure 2**
-   {% include _figure.html fig=page.figure2 desc=page.desc2 x=330 y=200 %}
+   {% include _figure.html fig=page.figure2 desc=page.desc2 x=200 y=330 %}
 
