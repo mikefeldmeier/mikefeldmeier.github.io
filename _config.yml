@@ -7,6 +7,7 @@ canonical: http://mikefeldmeier.github.io/
 useamp: false
 # google ANALYTICVS
 usega: false
+usega2: true
 # GFN  or  kramdown
 markdown: kramdown
 defaults:
