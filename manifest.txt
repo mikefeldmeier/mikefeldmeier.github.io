@@ -44,7 +44,8 @@ block1.png
 block2.png
 bsd_favicon.png
 bsd.png
-buddha.png
+daibutsu.png
+daibutsu2.png
 figure1.png
 figure2.png
 gogatsu_no_bara.jpg
