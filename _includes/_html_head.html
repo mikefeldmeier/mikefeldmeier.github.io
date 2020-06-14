@@ -1,7 +1,7 @@
 
   <!-- _includes/_html_head.html -->
   <meta charset="UTF-8">
-  {%if useamp %}
+  {% if site.useamp %}
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   {% endif %}
   <meta name="viewport"              content="width=device-width,initial-scale=1" />
@@ -21,7 +21,7 @@
   <link rel="shortcut icon" href="assets/images/bsd_favicon.png"   />
   <link rel="canonical"     href="{{ site.canonical }}" />
 
-  {%if useamp %}
+  {% if site.useamp %}
   <!-- mandatory for AMP pages -->
   <script type="application/ld+json">
     {
