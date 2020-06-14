@@ -46,6 +46,7 @@ bsd_favicon.png
 bsd.png
 daibutsu.png
 daibutsu2.png
+daibutsu3.png
 figure1.png
 figure2.png
 gogatsu_no_bara.jpg
@@ -71,6 +72,7 @@ figure.md
 gallery.md
 image1.md
 image2.md
+image3.md
 impressum.md
 index.md
 layout.md
