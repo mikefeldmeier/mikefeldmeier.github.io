@@ -16,7 +16,8 @@ ol[class] {
   padding: 0;
 }
 
-/* Remove margins */
+/* Remove margins             */
+/* figure,figcaption 0 before */
 body,
 h1,
 h2,
@@ -25,12 +26,15 @@ h4,
 ul[class],
 ol[class],
 li,
-figure,
-figcaption,
 blockquote,
 dl,
 dd {
   margin: 0;
+}
+
+figure,
+figcaption {
+  margin-left: 2px;
 }
 
 /* leave 2px p margin */
