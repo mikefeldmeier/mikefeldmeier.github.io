@@ -1,5 +1,14 @@
 
   <!-- _includes/_html_head.html -->
+  {% if site.usega %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={% for gaid in site.ga.gaid %}{{ ga.gaid }}{% endfor %}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{% for gaid in site.ga.gaid %}{{ ga.gaid }}{% endfor %}');
+  </script>
+  {% endif %}
   <meta charset="UTF-8">
   {% if site.useamp %}
   <script async src="https://cdn.ampproject.org/v0.js"></script>

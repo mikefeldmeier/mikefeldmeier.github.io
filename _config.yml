@@ -5,6 +5,8 @@ email: mikos0102@cologne-engines.de
 canonical: http://mikefeldmeier.github.io/
 # google AMP pages
 useamp: false
+# google ANALYTICVS
+usega: true
 # GFN  or  kramdown
 markdown: kramdown
 defaults:
