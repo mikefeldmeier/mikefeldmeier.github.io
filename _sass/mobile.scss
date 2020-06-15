@@ -260,9 +260,15 @@ div.magic-desc a:visited {
 }
 
 /* logo1 display github JJP */
-div.logo1 {
+.logo1 {
+  float:   left;
+  width:   20%;
+  padding: 3px;
   display: inline;
 }
-.logo1 {
+div.logo1 {
+  float:   left;
+  width:   20%;
+  padding: 3px;
   display: inline;
 }
