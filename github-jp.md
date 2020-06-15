@@ -29,9 +29,9 @@ GitHubアプリケーションと直感的なAPIを使用して、開発プロ�
 
    >&nbsp;
 
-{% include _logos.html logo=page.logo1  x=200 y=80 %}
-{% include _logos.html logo=page.logo2  x=200 y=80 %}
-{% include _logos.html logo=page.logo3  x=200 y=80 %}
-{% include _logos.html logo=page.logo4  x=200 y=80 %}
+{% include _logos.html logo=page.logo1  x=100 y=42 %}
+{% include _logos.html logo=page.logo2  x=100 y=42 %}
+{% include _logos.html logo=page.logo3  x=100 y=42 %}
+{% include _logos.html logo=page.logo4  x=80  y=80 %}
 
    <&nbsp;
