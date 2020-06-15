@@ -4,7 +4,7 @@
 
 * GITHUB loack page
 * Lock Entry to prevent abuse of my name by others.
-* All SRC codes are encrypted proprietary.
+* All SRC codes are proprietary encrypted.
 * Nobody will get a free license.
 * You should know that github was overtaken by microzoft.
 * Do not use chrome browser, use SRWare iron or MOZILLA firefox/seamonkey instead.
