@@ -12,7 +12,7 @@ owner: MFC COMP. Overseas Osaka - 大阪市
 
    >&nbsp;
 
-   Maglev Train starts its service in 2027 from Oosaka to toukyou.
+   Maglev Train starts its service in 2027 from Oosaka to Toukyou.
 
    >*
 
