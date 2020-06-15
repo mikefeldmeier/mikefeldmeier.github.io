@@ -28,4 +28,4 @@ GitHubアプリケーションと直感的なAPIを使用して、開発プロ�
 
 {% include _logos.html gitusers=page.gitusers %}
 
-   <&nbsp;
+   >&nbsp;
