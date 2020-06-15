@@ -207,3 +207,26 @@ figcaption {
   width:  100%;
   height: 100%;
 }
+/* a href in description text */
+div.desc {
+  color:           #000000;
+  padding:         15px;
+  text-align:      center;
+  text-decoration: none;
+}
+div.desc:hover {
+  font-size:       1.0em;
+  color:           yellow;    
+  text-decoration: underline;
+}
+div.desc a:hover {
+  font-size:       1.0em;
+  color:           yellow;    
+  text-decoration: underline;
+}
+div.desc a:link {
+  text-decoration: none;
+}
+div.desc a:visited {
+  text-decoration: none;
+}
