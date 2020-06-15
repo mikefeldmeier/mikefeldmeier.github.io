@@ -1,7 +1,0 @@
-[core]
-	editor = joe
-[alias]
-	last = log -1 HEAD
-	showbranch = log --oneline --decorate --graph --all
-[credential]
-	helper = store
