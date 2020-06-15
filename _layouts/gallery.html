@@ -244,9 +244,6 @@
       {% include _mnav.html %}
     </div>
     <div id="main">
-      <!-- content before gallery -->
-      {{ content }}
-
       <!-- start gallery -->
       <span class="rctitle0">Image Gallery</span>
       <span class="rctitle0">Resize browser window to see the gallery effect.</span>
@@ -289,6 +286,9 @@
       <div class="desc0">
         This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).
       </div><!-- end gallery -->
+
+      <!-- content after gallery -->
+      {{ content }}
     </div><!-- end main -->
 
     <div id="footer">
