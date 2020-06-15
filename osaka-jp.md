@@ -8,7 +8,7 @@ owner: MFC COMP. Overseas Osaka - 大阪市
 
 **Maglev Train (600 km/h)**
 ![Maglev Train side view](assets/images/maglev-train.png)
-[picture license](https://creativecommons.org/licenses/by-sa/3.0/deed.en){:target="_blank"}
+[picture license](https://creativecommons.org/licenses/by-sa/3.0/deed.ja){:target="_blank"}
 
    >&nbsp;
 
