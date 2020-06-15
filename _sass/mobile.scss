@@ -184,6 +184,8 @@ figcaption {
   margin-left: 4px;
 }
 
+/* MAGIC SITE */
+/* in iframe  */
 .magic-site {
   line-height:    1.5em;
   padding-top:    4px;
@@ -207,6 +209,7 @@ figcaption {
   width:  100%;
   height: 100%;
 }
+
 /* a href yellow underlined */
 /* in description text      */
 div.desc {
@@ -232,7 +235,7 @@ div.desc a:visited {
   text-decoration: none;
 }
 
-/* a href blue underlined */
+/* a href blue underlined   */
 /* in description text      */
 div.magic-desc {
   color:           #000000;
@@ -248,8 +251,10 @@ div.magic-desc a:hover {
   text-decoration: underline;
 }
 div.magic-desc a:link {
-  text-decoration: none;
+  color:           blue;    
+  text-decoration: underline;
 }
 div.magic-desc a:visited {
-  text-decoration: none;
+  color:           blue;    
+  text-decoration: underline;
 }
