@@ -207,7 +207,8 @@ figcaption {
   width:  100%;
   height: 100%;
 }
-/* a href in description text */
+/* a href yellow underlined */
+/* in description text      */
 div.desc {
   color:           #000000;
   padding:         15px;
@@ -228,5 +229,30 @@ div.desc a:link {
   text-decoration: none;
 }
 div.desc a:visited {
+  text-decoration: none;
+}
+
+/* a href blue underlined */
+/* in description text      */
+div.magicdesc {
+  color:           #000000;
+  padding:         15px;
+  text-align:      center;
+  text-decoration: none;
+}
+div.magicdesc:hover {
+  font-size:       1.0em;
+  color:           blue;    
+  text-decoration: underline;
+}
+div.magicdesc a:hover {
+  font-size:       1.0em;
+  color:           blue;    
+  text-decoration: underline;
+}
+div.magicdesc a:link {
+  text-decoration: none;
+}
+div.magicdesc a:visited {
   text-decoration: none;
 }
