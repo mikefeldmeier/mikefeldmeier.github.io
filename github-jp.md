@@ -4,6 +4,10 @@ title: MFC COMP. 大阪市
 owner: MFC COMP. Overseas Osaka - 大阪市
 giturl: https://github.co.jp/
 gitdesc: Github Japan
+logo1: ibm-logo.png
+logo2: sap-logo.png
+logo3: paypal-logo.png
+logo4: nasa-logo.png
 ---
 
 ## Github Japan - 開発者のプラットフォーム
@@ -24,3 +28,10 @@ GitHubアプリケーションと直感的なAPIを使用して、開発プロ�
 210万*以上もの組織に利用されています
 
    >&nbsp;
+
+{% include _logos.html logo=page.logo1  x=200 y=80 %}
+{% include _logos.html logo=page.logo2  x=200 y=80 %}
+{% include _logos.html logo=page.logo3  x=200 y=80 %}
+{% include _logos.html logo=page.logo4  x=200 y=80 %}
+
+   <&nbsp;
