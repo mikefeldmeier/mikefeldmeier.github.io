@@ -17,7 +17,7 @@ owner: MFC COMP. Overseas Osaka - 大阪市
 ![Daibutsu in Nara side view](assets/images/daibutsu2.png)
 [daibutsu license](https://en.wikipedia.org/wiki/Public_domain/){:target="_blank"}
 
-[original file](https://commons.wikimedia.org/wiki/File:NaraTodaijiDaibutsu0212.jpg){:target="_blank"}
+[original file](https://commons.wikimedia.org/wiki/File:NaraTodaijiDaibutsu0212.jpg?uselang=ja){:target="_blank"}
 
    >*
 
