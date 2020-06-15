@@ -16,6 +16,7 @@ _footer.html
 _github-jp.html
 _html_head.html
 _license.html
+_logos.html
 _magic.html
 _mdebug.html
 _mfooter.html
@@ -52,13 +53,17 @@ daibutsu3.png
 figure1.png
 figure2.png
 gogatsu_no_bara.jpg
+ibm-logo.png
 img1.jpg
 img2.jpg
 img3.jpg
 img4.jpg
+nasa-logo.png
 no_chrome.png
 no_linux.png
 no_win.png
+paypal-logo.png
+sap-logo.png
 test-jpg.jpg
 windoze_impressum.png
 *
