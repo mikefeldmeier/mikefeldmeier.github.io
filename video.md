@@ -6,6 +6,8 @@ vimeoid540:  428449273
 vimeoid720:  428449397
 vimeoid1080: 428448819
 ytid720:     _xDQs5M7lHw
+magicurl: https://www.magic-pyramid.de
+magicdesc: Desc for Magic Site
 ---
 
 ## Vimeo and Youtube Player
@@ -17,4 +19,6 @@ ytid720:     _xDQs5M7lHw
 {% include _vimeo.html   id=page.vimeoid1080 %}
 
 {% include _youtube.html id=page.ytid720     %}
+
+{% include _magic.html   magicurl=page.magicurl magicdesc=page.magicdesc %}
 
