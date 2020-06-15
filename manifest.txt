@@ -60,6 +60,7 @@ img2.jpg
 img3.jpg
 img4.jpg
 jaxa-logo.png
+maglev-train.png
 nasa-logo.png
 no_chrome.png
 no_linux.png
@@ -88,6 +89,7 @@ index.md
 layout.md
 LICENSE
 manifest.txt
+osaka-jp.md
 pageinfo.txt
 README.md
 video.md
