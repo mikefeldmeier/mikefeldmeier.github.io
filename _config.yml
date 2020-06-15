@@ -1,6 +1,7 @@
 title: Mikefeldmeier github
 name: MFC Computing
 email: mikos0102@cologne-engines.de
+# sass: stale compressed (or) expanded
 # link rel canonical {{ site.canonical }}
 canonical: http://mikefeldmeier.github.io/
 # google AMP pages
@@ -18,7 +19,7 @@ defaults:
       image: true
 sass:
       sass_dir: _sass
-      style: compressed
+      style: expanded
 webrick:
       headers:
         Cache-Control: no-cache

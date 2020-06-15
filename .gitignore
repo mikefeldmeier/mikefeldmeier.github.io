@@ -5,6 +5,7 @@ etag.md
 layout.md
 clone_repo.sh
 git_push.sh
+sass.sh
 manifest.sh
 rights.sh
 _site/
