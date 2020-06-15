@@ -234,25 +234,25 @@ div.desc a:visited {
 
 /* a href blue underlined */
 /* in description text      */
-div.magicdesc {
+div.magic-desc {
   color:           #000000;
   padding:         15px;
   text-align:      center;
   text-decoration: none;
 }
-div.magicdesc:hover {
+div.magic-desc:hover {
   font-size:       1.0em;
   color:           blue;    
   text-decoration: underline;
 }
-div.magicdesc a:hover {
+div.magic-desc a:hover {
   font-size:       1.0em;
   color:           blue;    
   text-decoration: underline;
 }
-div.magicdesc a:link {
+div.magic-desc a:link {
   text-decoration: none;
 }
-div.magicdesc a:visited {
+div.magic-desc a:visited {
   text-decoration: none;
 }
