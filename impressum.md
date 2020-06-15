@@ -3,7 +3,7 @@ layout: mobile
 title: MFC COMP. 大阪市
 owner: MFC COMP. Overseas Osaka - 大阪市
 email: mikos0102@cologne.engines.de
-magicurl: https://www.magic-pyramid.de
+magicurl:  https://www.magic-pyramid.de
 magicdesc: Description of Magic Site
 ---
 
@@ -20,6 +20,6 @@ magicdesc: Description of Magic Site
 
    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
 
-  {% include _iframe.html   url=page.magicurl  desc=page.magicdesc %}
+  {% include _iframe.html magicurl=page.magicurl magicdesc=page.magicdesc %}
 
 
