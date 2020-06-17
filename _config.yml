@@ -1,6 +1,7 @@
 title: MFC COMP. Overseas Osaka
 name: MFC Computing
 email: mikos0102@cologne-engines.de
+baseurl: "/"
 # sass: stale compressed (or) expanded
 # link rel canonical {{ site.canonical }}
 canonical: http://mikefeldmeier.github.io/

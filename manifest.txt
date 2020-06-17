@@ -60,6 +60,7 @@ img2.jpg
 img3.jpg
 img4.jpg
 jaxa-logo.png
+jekyll-logo.png
 maglev-train.png
 nasa-logo.png
 no_chrome.png
