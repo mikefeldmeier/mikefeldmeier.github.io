@@ -6,7 +6,7 @@ vimeoid540:  428449273
 vimeoid720:  428449397
 vimeoid1080: 428448819
 ytid720:     _xDQs5M7lHw
-ytdesc720: [ Steve Bannon - CCP collapse ]
+ytdesc720: Steve Bannon - CCP collapse
 magicurl: https://www.magic-pyramid.de
 magicdesc: Description for Magic Site
 ---
