@@ -71,6 +71,7 @@ no_chrome.png
 no_linux.png
 no_win.png
 paypal-logo.png
+ruby-logo.png
 sap-logo.png
 test-jpg.jpg
 windoze_impressum.png
