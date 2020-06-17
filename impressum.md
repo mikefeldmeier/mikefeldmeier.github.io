@@ -24,6 +24,6 @@ magicdesc: Description of Magic Site
 
    >&nbsp;
 
-![Github Component Jekyll]({{ site.baseurl }}assets/images/jekyll.logo.png)
+![Github Component Jekyll]({{ site.baseurl }}assets/images/jekyll-logo.png)
 
    >&nbsp;
