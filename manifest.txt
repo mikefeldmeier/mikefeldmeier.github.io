@@ -15,6 +15,7 @@ _figure.html
 _footer.html
 _github-jp.html
 _html_head.html
+_image.html
 _license.html
 _logos.html
 _magic.html
