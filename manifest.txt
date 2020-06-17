@@ -3,6 +3,7 @@ MANIFEST
 -------------------------------------------------------------------------------
 *
 _data
+components.csv
 etag.csv
 ga.csv
 members.csv
@@ -55,7 +56,6 @@ daibutsu3.png
 docomo-logo.png
 figure1.png
 figure2.png
-fluid-logo.png
 gogatsu_no_bara.jpg
 ibm-logo.png
 img1.jpg
@@ -64,6 +64,7 @@ img3.jpg
 img4.jpg
 jaxa-logo.png
 jekyll-logo.png
+liquid-logo.png
 maglev-train.png
 nasa-logo.png
 no_chrome.png
