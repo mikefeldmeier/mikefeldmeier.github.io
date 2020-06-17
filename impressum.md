@@ -23,7 +23,6 @@ gitcomp: Github Components
 
    >&nbsp;
 
-   **Github components**
    {% include _components.html gitcomp=page.gitcomp %}
 
    >&nbsp;
