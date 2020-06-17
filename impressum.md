@@ -3,9 +3,7 @@ layout: mobile
 title: MFC COMP. 大阪市
 owner: MFC COMP. Overseas Osaka - 大阪市
 email: mikos0102@cologne.engines.de
-magicurl:  https://www.magic-pyramid.de
-magicdesc: Description of Magic Site
-img1: jekyll-logo.png
+gitcomp: Github Components
 ---
 
 ## MFC COMP. Overseas Osaka - 大阪市 - Impressum
@@ -26,6 +24,6 @@ img1: jekyll-logo.png
    >&nbsp;
 
    **Github components**
-   {% include _image.html img=page.img1 x=200 y=64 %}
+   {% include _components.html gitcomp=page.gitcomp %}
 
    >&nbsp;
