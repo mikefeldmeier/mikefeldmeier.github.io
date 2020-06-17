@@ -56,6 +56,7 @@ daibutsu3.png
 docomo-logo.png
 figure1.png
 figure2.png
+githubapi-logo.png
 gogatsu_no_bara.jpg
 ibm-logo.png
 img1.jpg
