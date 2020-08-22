@@ -1,6 +1,6 @@
--------------------------------------------------------------------------------
+------------------------------------------------------------------------------
 MANIFEST
--------------------------------------------------------------------------------
+------------------------------------------------------------------------------
 *
 _data
 components.csv
@@ -74,6 +74,7 @@ no_win.png
 paypal-logo.png
 ruby-logo.png
 sap-logo.png
+sass-logo.png
 test-jpg.jpg
 windoze_impressum.png
 *
@@ -93,10 +94,8 @@ image2.md
 image3.md
 impressum.md
 index.md
-layout.md
 LICENSE
 manifest.txt
 osaka-jp.md
-pageinfo.txt
 README.md
 video.md
