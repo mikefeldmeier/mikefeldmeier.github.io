@@ -19,7 +19,7 @@ iframeurl: http://bsd111.de/
 * Do not use chrome browser, use SRWare iron or MOZILLA firefox/seamonkey instead.
 * The unscrambled SRC code here only shows the jekyll subset of github.
 
-### We use:
+### We only use:
 
 
 ![use bsd](assets/images/bsd.png)
