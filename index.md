@@ -11,7 +11,7 @@ iframeurl: http://bsd111.de/
 
 ## MFC COMP. Overseas Osaka - 大阪市
 
-* GITHUB lock page
+* GITHUB locking page
 * Lock Entry to prevent abuse of my name by others.
 * All SRC codes are proprietary encrypted.
 * Nobody will get a free license.
